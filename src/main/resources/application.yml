@@ -1,7 +1,16 @@
 management:
+  endpoint:
+    health:
+      show-details: when-authorized
   endpoints:
     web:
       base-path: /manage
+      exposure:
+        include:
+        - health
+        - info
+        - prometheus
+        - metrics
 
 server:
   servlet:
