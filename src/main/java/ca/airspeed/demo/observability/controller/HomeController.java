@@ -1,7 +1,5 @@
 package ca.airspeed.demo.observability.controller;
 
-import java.io.IOException;
-
 import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.stereotype.Controller;
@@ -12,7 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class HomeController {
 
 	@GetMapping(value="/")
-	public ModelAndView test(HttpServletResponse response) throws IOException{
+	public ModelAndView test(HttpServletResponse response) {
 		return new ModelAndView("home");
 	}
 }
