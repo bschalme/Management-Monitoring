@@ -16,7 +16,7 @@
 		<java.version>11</java.version>
         <jaxb.version>2.3.3</jaxb.version>
 		<git-commit-id-plugin.version>4.0.0</git-commit-id-plugin.version>
-		<spring-boot.version>2.3.8.RELEASE</spring-boot.version>
+		<spring-boot.version>2.5.12</spring-boot.version>
 	</properties>
 
 	<dependencies>
